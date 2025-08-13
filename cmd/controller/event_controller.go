@@ -21,7 +21,6 @@ type EventController struct{ svc services.EventService }
 
 func NewEventController(s services.EventService) *EventController { return &EventController{svc: s} }
 
-// Ping endpoint (opcional)
 var PingController = &pingCtl{}
 
 type pingCtl struct{}

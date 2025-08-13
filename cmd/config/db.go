@@ -16,7 +16,7 @@ func OpenDB() (*gorm.DB, *sql.DB, error) {
 	user := MustGetEnv("DB_USER")
 	pass := MustGetEnv("DB_PASSWORD")
 	name := MustGetEnv("DB_NAME")
-	ssl := GetEnv("DB_SSLMODE", "") // sin default "quemado"
+	ssl := GetEnv("DB_SSLMODE", "")
 
 	var dsn string
 	if ssl != "" {

@@ -1,4 +1,4 @@
-# Carga .env si existe
+#check if exist .env file
 ifneq (,$(wildcard .env))
 include .env
 export

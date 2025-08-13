@@ -47,7 +47,7 @@ This service includes endpoints to **create**, **list**, and **retrieve events b
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/event-api.git
+git clone https://github.com/giojimen3z/lkt_test_interview.git
 cd event-api
 ```
 
