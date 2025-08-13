@@ -1,0 +1,57 @@
+# Go build
+bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go coverage
+*.cover
+*.cov
+coverage.*
+
+# Logs
+*.log
+logs/
+log/
+
+# Dependency directories
+vendor/
+
+# IDE settings
+.vscode/
+.idea/
+*.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+
+# Swagger generated files
+docs/*
+!docs/readme.md
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Node modules (si usas algo de frontend en el mismo repo)
+node_modules/
+
+# SQLite or local DB
+*.db
+*.sqlite
+*.sqlite3
+
+# Docker
+docker-compose.override.yml
+
+_data/

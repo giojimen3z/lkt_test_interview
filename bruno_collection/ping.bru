@@ -1,0 +1,14 @@
+meta {
+  name: ping
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:8080/ping
+  auth: none
+}
+
+headers {
+  Content-Type: application/json
+}
